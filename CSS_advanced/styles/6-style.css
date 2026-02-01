@@ -1,0 +1,16 @@
+/* Root custom properties for font weights */
+:root {
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  }
+  
+  /* Body fonts use regular weight */
+  body {
+    font-weight: var(--font-weight-regular);
+  }
+  
+  /* All heading levels use bold weight */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: var(--font-weight-bold);
+  }
+  

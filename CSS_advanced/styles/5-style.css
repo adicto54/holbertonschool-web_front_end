@@ -1,0 +1,19 @@
+/* Root custom properties for font sizes */
+:root {
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+  }
+  
+  /* Make all fonts in html element 62.5% of their normal size */
+  html {
+    font-size: 62.5%;
+  }
+  
+  /* Body fonts use font-size-medium */
+  body {
+    font-size: var(--font-size-medium);
+  }
+  

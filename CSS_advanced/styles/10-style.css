@@ -1,0 +1,44 @@
+/* Root custom properties for font weights, font families, line heights, and section header alignment */
+:root {
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+  
+    /* New custom property for section header alignment */
+    --section-header-align: center;
+  }
+  
+  /* Body fonts use base font-family, regular weight, and base line-height */
+  body {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
+  }
+  
+  /* All heading levels use title font-family and bold weight */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+  }
+  
+  /* Anchor elements: remove default text decoration */
+  a {
+    text-decoration: none;
+  }
+  
+  /* New class for section headers */
+  .section-header {
+    text-align: var(--section-header-align);
+  }
+  
+  /* Section tagline declaration (from previous styles) */
+  .section-tagline {
+    color: var(--color-primary);
+  }
+  
