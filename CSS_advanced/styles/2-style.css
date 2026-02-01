@@ -1,0 +1,25 @@
+/* Set body text color */
+body {
+    color: #161616;
+  }
+  
+  /* Set all anchor text color */
+  a {
+    color: #161616;
+  }
+  
+  /* Hide elements with visually-hidden class */
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* Set text color for elements with card-category class */
+  .card-category {
+    color: #D73953;
+  }
+  
+  /* Set text color for elements with section-tagline class */
+  .section-tagline {
+    color: #D73953;
+  }
+  

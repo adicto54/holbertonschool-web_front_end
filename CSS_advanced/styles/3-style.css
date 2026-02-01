@@ -1,0 +1,35 @@
+/* Define custom properties on the root element */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+  }
+  
+  /* Body text color uses variable */
+  body {
+    color: var(--text-color);
+  }
+  
+  /* All anchors use text-color variable */
+  a {
+    color: var(--text-color);
+  }
+  
+  /* Hide visually hidden elements */
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* card-category uses color-primary variable */
+  .card-category {
+    color: var(--color-primary);
+  }
+  
+  /* section-tagline uses color-primary variable */
+  .section-tagline {
+    color: var(--color-primary);
+  }
+  
