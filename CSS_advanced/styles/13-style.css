@@ -1,10 +1,10 @@
-/* default links (only those with href) */
+/* link only for anchors with href */
 a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* visited links */
+/* visited state */
 a[href]:visited {
   font-style: italic;
 }
